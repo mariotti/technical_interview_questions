@@ -5,7 +5,6 @@ Technical Interview Questions
 - Find the most frequent integer in an array
 - Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time)
 - Given 2 integer arrays, determine if the 2nd array is a rotated version of the 1st array.
-  
     ```Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}```
 - Write fibbonaci iteratively and recursively (bonus: use dynamic programming)
 - Find the only element in an array that only occurs once.
@@ -26,6 +25,7 @@ Technical Interview Questions
             5 4 1           1 2 3
             3   2   --->    8   4
             7 8 6           7 6 5
+
 - There is k parenthesis, write code to calculate how many permutations could have. 
     For 2 parenthesis, there is 2 permutations: ()() and (()).
 - **HARD**: Given a function rand5() that returns a random int between 0 and 5, implement rand7()
