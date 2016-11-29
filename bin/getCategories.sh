@@ -1,3 +1,3 @@
 #! /bin/sh
-cat QUESTIONS.json | jq '.' | jq '.TechQuestions.category[].name'
+cat QUESTIONS.json | jq '.' | jq '.TechQuestions.category[].catname'
 #

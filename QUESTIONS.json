@@ -3,7 +3,7 @@
         "category": [
             {
                 "idC": "C1",
-                "name": "General",
+                "catname": "General",
                 "question": [
                     {
                         "categoryname": "General",
@@ -19,7 +19,7 @@
                         "idCQ": "C1Q2",
                         "idQ": "Q2",
                         "ID": "Q2",
-                        "name": "Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time)"
+                        "name": "Find pairs in an integer array whose sum is equal to 10 (bonus; do it in linear time)"
                     },
                     {
                         "categoryname": "General",
@@ -36,7 +36,7 @@
                         "idCQ": "C1Q4",
                         "idQ": "Q4",
                         "ID": "Q4",
-                        "name": "Write fibbonaci iteratively and recursively (bonus: use dynamic programming)"
+                        "name": "Write fibbonaci iteratively and recursively (bonus; use dynamic programming)"
                     },
                     {
                         "categoryname": "General",
@@ -108,7 +108,7 @@
                         "idCQ": "C1Q13",
                         "idQ": "Q13",
                         "ID": "Q13",
-                        "name": "Implement an exponent function (bonus: now try in log(n) time)"
+                        "name": "Implement an exponent function (bonus; now try in log(n) time)"
                     },
                     {
                         "categoryname": "General",
@@ -158,7 +158,7 @@
                         "idCQ": "C1Q19",
                         "idQ": "Q19",
                         "ID": "Q19",
-                        "name": "**HARD**: Given a function rand5() that returns a random int between 0 and 5, implement rand7()"
+                        "name": "**HARD**; Given a function rand5() that returns a random int between 0 and 5, implement rand7()"
                     },
                     {
                         "categoryname": "General",
@@ -166,13 +166,13 @@
                         "idCQ": "C1Q20",
                         "idQ": "Q20",
                         "ID": "Q20",
-                        "name": "**HARD**: Given a 2D array of 1s and 0s, count the number of ``islands of 1s`` (e.g. groups of connecting 1s)"
+                        "name": "**HARD**; Given a 2D array of 1s and 0s, count the number of ``islands of 1s`` (e.g. groups of connecting 1s)"
                     }
                 ]
             },
             {
                 "idC": "C2",
-                "name": "Strings",
+                "catname": "Strings",
                 "question": [
                     {
                         "categoryname": "Strings",
@@ -228,7 +228,7 @@
                         "idCQ": "C2Q7",
                         "idQ": "Q7",
                         "ID": "Q27",
-                        "name": "**HARD**: Find the longest palindrome in a String"
+                        "name": "**HARD**; Find the longest palindrome in a String"
                     },
                     {
                         "categoryname": "Strings",
@@ -236,7 +236,7 @@
                         "idCQ": "C2Q8",
                         "idQ": "Q8",
                         "ID": "Q28",
-                        "name": "**HARD**: Print all permutations of a String"
+                        "name": "**HARD**; Print all permutations of a String"
                     },
                     {
                         "categoryname": "Strings",
@@ -244,13 +244,13 @@
                         "idCQ": "C2Q9",
                         "idQ": "Q9",
                         "ID": "Q29",
-                        "name": "**HARD**: Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right"
+                        "name": "**HARD**; Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right"
                     }
                 ]
             },
             {
                 "idC": "C3",
-                "name": "Trees",
+                "catname": "Trees",
                 "question": [
                     {
                         "categoryname": "Trees",
@@ -354,7 +354,7 @@
                         "idCQ": "C3Q13",
                         "idQ": "Q13",
                         "ID": "Q42",
-                        "name": "**HARD**: Find the max distance between 2 nodes in a BST."
+                        "name": "**HARD**; Find the max distance between 2 nodes in a BST."
                     },
                     {
                         "categoryname": "Trees",
@@ -362,13 +362,13 @@
                         "idCQ": "C3Q14",
                         "idQ": "Q14",
                         "ID": "Q43",
-                        "name": "**HARD**: Construct a BST given the pre-order and in-order traversal Strings"
+                        "name": "**HARD**; Construct a BST given the pre-order and in-order traversal Strings"
                     }
                 ]
             },
             {
                 "idC": "C4",
-                "name": "Stacks, Queues, and Heaps",
+                "catname": "Stacks, Queues, and Heaps",
                 "question": [
                     {
                         "categoryname": "Stacks, Queues, and Heaps",
@@ -400,7 +400,7 @@
                         "idCQ": "C4Q4",
                         "idQ": "Q4",
                         "ID": "Q47",
-                        "name": "Write a function that sorts a stack (bonus: sort the stack in place without extra memory)"
+                        "name": "Write a function that sorts a stack (bonus; sort the stack in place without extra memory)"
                     },
                     {
                         "categoryname": "Stacks, Queues, and Heaps",
@@ -416,13 +416,13 @@
                         "idCQ": "C4Q6",
                         "idQ": "Q6",
                         "ID": "Q49",
-                        "name": "**HARD**: Implement a queue using two stacks"
+                        "name": "**HARD**; Implement a queue using two stacks"
                     }
                 ]
             },
             {
                 "idC": "C5",
-                "name": "Linked Lists",
+                "catname": "Linked Lists",
                 "question": [
                     {
                         "categoryname": "Linked Lists",
@@ -501,7 +501,7 @@
             },
             {
                 "idC": "C6",
-                "name": "Sorting",
+                "catname": "Sorting",
                 "question": [
                     {
                         "categoryname": "Sorting",
@@ -547,7 +547,7 @@
             },
             {
                 "idC": "C7",
-                "name": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+                "catname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
                 "question": [
                     {
                         "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
@@ -780,7 +780,7 @@
             },
             {
                 "idC": "C8",
-                "name": "Uncategorized",
+                "catname": "Uncategorized",
                 "question": [
                     {
                         "categoryname": "Uncategorized",

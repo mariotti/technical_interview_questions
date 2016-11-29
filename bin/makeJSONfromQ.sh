@@ -10,8 +10,8 @@ cat ${QQ} | tail +4 | sed 's/"/``/g' | \
                              else {print "{ \"TechQuestions\" :\n\t{ \"category\" :\n\t["}; \
                              catName=$0;
                              tagsCnum = split(catName,tagsCname,",");
-                             printf("\t\t{ \"idC\" : \"C%d\", \"name\" : \"%s\",",Ccount,$0)} \
-         /^- /    {Qcount++; QCcount++; gsub(/^- */,"",$0);gsub(/^ /,"",$0);gsub(/[ ]+$/,"",$0); if (QCcount >1) {\
+                             printf("\t\t{ \"idC\" : \"C%d\", \"catname\" : \"%s\",",Ccount,$0)} \
+         /^- /    {Qcount++; QCcount++; gsub(/^- */,"",$0);gsub(/^ /,"",$0);gsub(/[ ]+$/,"",$0);gsub(/:/,";",$0); if (QCcount >1) {\
                                if (Ncount > 0) {Ncount = 0;print "\"";}; \
                                print "\t\t\t},"; \
 			       } \
