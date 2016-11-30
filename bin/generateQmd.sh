@@ -18,7 +18,7 @@ cat QUESTIONS.json | jq '.' | awk ' \
                 print "       ID  Category:",idC;
                 print "    ID CatQuestions:",idCQ, "\n\n";
                 print "Inline notes:",qnotes,"\n\n";qnotes=""; \
-                scmd=sprintf("cat python_solutions/%s_DISCUSSION.md", ID);\
+                scmd=sprintf("cat discussions/%s_DISCUSSION.md", ID);\
                 system(scmd)\
 } \
 '
