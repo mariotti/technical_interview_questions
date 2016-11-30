@@ -1,6 +1,9 @@
 #! /bin/sh
 #
 echo "# Technical Questions and Algorithms\n"
+echo "## List of Categories\n"
+./bin/getCategories.sh | sed 's/^"/ - /' | sed 's/"$//'
+echo ""
 #
 cat QUESTIONS.json | jq '.' | awk ' \
 /^ *"catname" *:/ {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);print "#",$2,"\n";} \
@@ -15,5 +18,7 @@ cat QUESTIONS.json | jq '.' | awk ' \
                 print "       ID  Category:",idC;
                 print "    ID CatQuestions:",idCQ, "\n\n";
                 print "Inline notes:",qnotes,"\n\n";qnotes=""; \
+                scmd=sprintf("cat python_solutions/%s_DISCUSSION.md", ID);\
+                system(scmd)\
 } \
 '
