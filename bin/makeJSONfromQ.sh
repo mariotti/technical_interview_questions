@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-QQ="QUESTIONS.md"
+QQ="QUESTIONS_OLD.md"
 #QQ="bin/makeJSONfromQ.QUESTIONS.test.md"
 cat ${QQ} | tail +4 | sed 's/"/``/g' | \
     awk 'BEGIN { Ccount=0; Qcount=0; QCcount=0; Ncount=0; firtsC=0; firstQ=0 } \

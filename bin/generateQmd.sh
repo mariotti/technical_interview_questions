@@ -1,5 +1,6 @@
 #! /bin/sh
 #
+# This script has a problem on "notes"!! NOT WORKING as expected
 echo "# Technical Questions and Algorithms\n"
 echo "## List of Categories\n"
 ./bin/getCategories.sh | sed 's/^"/ - /' | sed 's/"$//'
