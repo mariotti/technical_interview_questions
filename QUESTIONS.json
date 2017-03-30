@@ -28,7 +28,7 @@
                         "idQ": "Q3",
                         "ID": "Q3",
                         "name": "Given 2 integer arrays, determine if the 2nd array is a rotated version of the 1st array.",
-                        "notes": "```Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}```"
+                        "notes": "Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}"
                     },
                     {
                         "categoryname": "General",
@@ -463,7 +463,7 @@
                         "idQ": "Q5",
                         "ID": "Q54",
                         "name": "Given a circular linked list, find the node at the beginning of the loop.",
-                        "notes": "```Ex. A-->B-->C --> D-->E -->C, C is the node that begins the loop```"
+                        "notes": "Ex. A-->B-->C --> D-->E -->C, C is the node that begins the loop"
                     },
                     {
                         "categoryname": "Linked Lists",
@@ -572,7 +572,7 @@
                         "idQ": "Q3",
                         "ID": "Q66",
                         "name": "Find the max value in an array. The array is ``semi-sorted``.",
-                        "notes": "```Ex. { 1 3 4 7 9 10 12 13 12 6 3 }```"
+                        "notes": "Ex. { 1 3 4 7 9 10 12 13 12 6 3 }"
                     },
                     {
                         "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
@@ -766,7 +766,7 @@
                         "idQ": "Q27",
                         "ID": "Q90",
                         "name": "Given a sorted array of n integers that has been rotated an unknown number of times, write code to find an element in the array. Sorted in increasing order",
-                        "notes": "```Input: find 5 in (15, 16, 19, 20, 25, 1, 3, 4, 5, 6, 10, 14) Output 8```"
+                        "notes": "Input: find 5 in (15, 16, 19, 20, 25, 1, 3, 4, 5, 6, 10, 14) Output 8"
                     },
                     {
                         "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",

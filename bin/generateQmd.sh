@@ -1,6 +1,7 @@
 #! /bin/sh
 #
 # This script has a problem on "notes"!! NOT WORKING as expected
+# Wrong approach! Need to use jq extensively to generate the md file
 echo "# Technical Questions and Algorithms\n"
 echo "## List of Categories\n"
 ./bin/getCategories.sh | sed 's/^"/ - /' | sed 's/"$//'
