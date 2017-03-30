@@ -15,21 +15,8 @@ cat QUESTIONS.json | jq '.' | awk ' \
 /^ *"ID" *:/   {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);ID=$2;} \
 /^ *"notes" *:/   {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);qnotes=$2;} \
 /^ *"name" *:/ {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);print "##",$2; \
-                print "    -- IDs --";
-                print "       ID Questions:",ID;
-                print "       ID  Category:",idC;
+                print "    ID    Questions:",ID;
+                print "    ID     Category:",idC;
                 print "    ID CatQuestions:",idCQ, "\n\n";
-                print "Inline notes:",qnotes,"\n\n";qnotes=""; \
-                scmd=sprintf("cat discussions/%s_DISCUSSION.md", ID);\
-                system(scmd)\
 } \
 '
-#
-#exit 0
-#
-# JQ Alternative: testing
-cat QUESTIONS.json | jq '.' | jq -r \
-    '.TechQuestions.category[].question[] | ( 
-    (.categoryname | "# \(.)" ) , 
-    (.ID | " ID: \(.)")
-    )'
