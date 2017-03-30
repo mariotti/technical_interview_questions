@@ -1,5 +1,8 @@
 #! /bin/sh
 #
+exho "please use now as master file only the QUESTIONS.json"
+exit 0
+#
 QQ="QUESTIONS_OLD.md"
 #QQ="bin/makeJSONfromQ.QUESTIONS.test.md"
 cat ${QQ} | tail +4 | sed 's/"/``/g' | \
