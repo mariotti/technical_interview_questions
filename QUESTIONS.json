@@ -1,1133 +1,1133 @@
 {
-    "TechQuestions": {
-        "category": [
-            {
-                "idC": "C1",
-                "catname": "General",
-                "question": [
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q1",
-                        "idQ": "Q1",
-                        "ID": "Q1",
-                        "name": "Find the most frequent integer in an array"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q2",
-                        "idQ": "Q2",
-                        "ID": "Q2",
-                        "name": "Find pairs in an integer array whose sum is equal to 10 (bonus; do it in linear time)"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q3",
-                        "idQ": "Q3",
-                        "ID": "Q3",
-                        "name": "Given 2 integer arrays, determine if the 2nd array is a rotated version of the 1st array.",
-                        "notes": "Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q4",
-                        "idQ": "Q4",
-                        "ID": "Q4",
-                        "name": "Write fibbonaci iteratively and recursively (bonus; use dynamic programming)"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q5",
-                        "idQ": "Q5",
-                        "ID": "Q5",
-                        "name": "Find the only element in an array that only occurs once."
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q6",
-                        "idQ": "Q6",
-                        "ID": "Q6",
-                        "name": "Find the common elements of 2 int arrays"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q7",
-                        "idQ": "Q7",
-                        "ID": "Q7",
-                        "name": "Implement binary search of a sorted array of integers"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q8",
-                        "idQ": "Q8",
-                        "ID": "Q8",
-                        "name": "Implement binary search in a rotated array (ex. {5,6,7,8,1,2,3})"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q9",
-                        "idQ": "Q9",
-                        "ID": "Q9",
-                        "name": "Use dynamic programming to find the first X prime numbers"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q10",
-                        "idQ": "Q10",
-                        "ID": "Q10",
-                        "name": "Write a function that prints out the binary form of an int"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q11",
-                        "idQ": "Q11",
-                        "ID": "Q11",
-                        "name": "Implement parseInt"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q12",
-                        "idQ": "Q12",
-                        "ID": "Q12",
-                        "name": "Implement squareroot function"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q13",
-                        "idQ": "Q13",
-                        "ID": "Q13",
-                        "name": "Implement an exponent function (bonus; now try in log(n) time)"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q14",
-                        "idQ": "Q14",
-                        "ID": "Q14",
-                        "name": "Write a multiply function that multiples 2 integers without using *"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q15",
-                        "idQ": "Q15",
-                        "ID": "Q15",
-                        "name": "Given n points, return the top k points that are closest to the origin"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q16",
-                        "idQ": "Q16",
-                        "ID": "Q16",
-                        "name": "We’re going to find “Word Twins”, which are pairs of English words, at least 4 letters long, where the first three letters of one are the last three letters of another.  For example, “strategy” and “Egypt”."
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q17",
-                        "idQ": "Q17",
-                        "ID": "Q17",
-                        "name": "Given a 3*3 matrix, and 1-8 numbers in random order, 1 place as space.",
-                        "notes": "Write code to find the min exchange of numbers to make the matrix in order.5 4 1           1 2 33   2   --->    8   47 8 6           7 6 5"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q18",
-                        "idQ": "Q18",
-                        "ID": "Q18",
-                        "name": "There is k parenthesis, write code to calculate how many permutations could have.",
-                        "notes": "For 2 parenthesis, there is 2 permutations: ()() and (())."
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q19",
-                        "idQ": "Q19",
-                        "ID": "Q19",
-                        "name": "**HARD**; Given a function rand5() that returns a random int between 0 and 5, implement rand7()"
-                    },
-                    {
-                        "categoryname": "General",
-                        "idC": "C1",
-                        "idCQ": "C1Q20",
-                        "idQ": "Q20",
-                        "ID": "Q20",
-                        "name": "**HARD**; Given a 2D array of 1s and 0s, count the number of ``islands of 1s`` (e.g. groups of connecting 1s)"
-                    }
-                ]
-            },
-            {
-                "idC": "C2",
-                "catname": "Strings",
-                "question": [
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q1",
-                        "idQ": "Q1",
-                        "ID": "Q21",
-                        "name": "Find the first non-repeated character in a String"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q2",
-                        "idQ": "Q2",
-                        "ID": "Q22",
-                        "name": "Reverse a String iteratively and recursively"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q3",
-                        "idQ": "Q3",
-                        "ID": "Q23",
-                        "name": "Determine if 2 Strings are anagrams"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q4",
-                        "idQ": "Q4",
-                        "ID": "Q24",
-                        "name": "Check if String is a palindrome"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q5",
-                        "idQ": "Q5",
-                        "ID": "Q25",
-                        "name": "Check if a String is composed of all unique characters"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q6",
-                        "idQ": "Q6",
-                        "ID": "Q26",
-                        "name": "Determine if a String is an int or a double"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q7",
-                        "idQ": "Q7",
-                        "ID": "Q27",
-                        "name": "**HARD**; Find the longest palindrome in a String"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q8",
-                        "idQ": "Q8",
-                        "ID": "Q28",
-                        "name": "**HARD**; Print all permutations of a String"
-                    },
-                    {
-                        "categoryname": "Strings",
-                        "idC": "C2",
-                        "idCQ": "C2Q9",
-                        "idQ": "Q9",
-                        "ID": "Q29",
-                        "name": "**HARD**; Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right"
-                    }
-                ]
-            },
-            {
-                "idC": "C3",
-                "catname": "Trees",
-                "question": [
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q1",
-                        "idQ": "Q1",
-                        "ID": "Q30",
-                        "name": "Implement a BST with insert and delete functions"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q2",
-                        "idQ": "Q2",
-                        "ID": "Q31",
-                        "name": "Print a tree using BFS and DFS"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q3",
-                        "idQ": "Q3",
-                        "ID": "Q32",
-                        "name": "Write a function that determines if a tree is a BST"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q4",
-                        "idQ": "Q4",
-                        "ID": "Q33",
-                        "name": "Find the smallest element in a BST"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q5",
-                        "idQ": "Q5",
-                        "ID": "Q34",
-                        "name": "Find the 2nd largest number in a BST"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q6",
-                        "idQ": "Q6",
-                        "ID": "Q35",
-                        "name": "Given a binary tree which is a sum tree (child nodes add to parent), write an algorithm to determine whether the tree is a valid sum tree"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q7",
-                        "idQ": "Q7",
-                        "ID": "Q36",
-                        "name": "Find the distance between 2 nodes in a BST and a normal binary tree"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q8",
-                        "idQ": "Q8",
-                        "ID": "Q37",
-                        "name": "Print the coordinates of every node in a binary tree, where root is 0,0"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q9",
-                        "idQ": "Q9",
-                        "ID": "Q38",
-                        "name": "Print a tree by levels"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q10",
-                        "idQ": "Q10",
-                        "ID": "Q39",
-                        "name": "Given a binary tree which is a sum tree, write an algorithm to determine whether the tree is a valid sum tree"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q11",
-                        "idQ": "Q11",
-                        "ID": "Q40",
-                        "name": "Given a tree, verify that it contains a subtree."
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q12",
-                        "idQ": "Q12",
-                        "ID": "Q41",
-                        "name": "Convert binary tree to doubly linked list"
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q13",
-                        "idQ": "Q13",
-                        "ID": "Q42",
-                        "name": "**HARD**; Find the max distance between 2 nodes in a BST."
-                    },
-                    {
-                        "categoryname": "Trees",
-                        "idC": "C3",
-                        "idCQ": "C3Q14",
-                        "idQ": "Q14",
-                        "ID": "Q43",
-                        "name": "**HARD**; Construct a BST given the pre-order and in-order traversal Strings"
-                    }
-                ]
-            },
-            {
-                "idC": "C4",
-                "catname": "Stacks, Queues, and Heaps",
-                "question": [
-                    {
-                        "categoryname": "Stacks, Queues, and Heaps",
-                        "idC": "C4",
-                        "idCQ": "C4Q1",
-                        "idQ": "Q1",
-                        "ID": "Q44",
-                        "name": "Implement a stack with push and pop functions"
-                    },
-                    {
-                        "categoryname": "Stacks, Queues, and Heaps",
-                        "idC": "C4",
-                        "idCQ": "C4Q2",
-                        "idQ": "Q2",
-                        "ID": "Q45",
-                        "name": "Implement a queue with queue and dequeue functions"
-                    },
-                    {
-                        "categoryname": "Stacks, Queues, and Heaps",
-                        "idC": "C4",
-                        "idCQ": "C4Q3",
-                        "idQ": "Q3",
-                        "ID": "Q46",
-                        "name": "Find the minimum element in a stack in O(1) time"
-                    },
-                    {
-                        "categoryname": "Stacks, Queues, and Heaps",
-                        "idC": "C4",
-                        "idCQ": "C4Q4",
-                        "idQ": "Q4",
-                        "ID": "Q47",
-                        "name": "Write a function that sorts a stack (bonus; sort the stack in place without extra memory)"
-                    },
-                    {
-                        "categoryname": "Stacks, Queues, and Heaps",
-                        "idC": "C4",
-                        "idCQ": "C4Q5",
-                        "idQ": "Q5",
-                        "ID": "Q48",
-                        "name": "Implement a binary min heap. Turn it into a binary max heap"
-                    },
-                    {
-                        "categoryname": "Stacks, Queues, and Heaps",
-                        "idC": "C4",
-                        "idCQ": "C4Q6",
-                        "idQ": "Q6",
-                        "ID": "Q49",
-                        "name": "**HARD**; Implement a queue using two stacks"
-                    }
-                ]
-            },
-            {
-                "idC": "C5",
-                "catname": "Linked Lists",
-                "question": [
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q1",
-                        "idQ": "Q1",
-                        "ID": "Q50",
-                        "name": "Implement a linked list (with insert and delete functions)"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q2",
-                        "idQ": "Q2",
-                        "ID": "Q51",
-                        "name": "Find the Nth element in a linked list"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q3",
-                        "idQ": "Q3",
-                        "ID": "Q52",
-                        "name": "Remove the Nth element of a linked list"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q4",
-                        "idQ": "Q4",
-                        "ID": "Q53",
-                        "name": "Check if a linked list has cycles"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q5",
-                        "idQ": "Q5",
-                        "ID": "Q54",
-                        "name": "Given a circular linked list, find the node at the beginning of the loop.",
-                        "notes": "Ex. A-->B-->C --> D-->E -->C, C is the node that begins the loop"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q6",
-                        "idQ": "Q6",
-                        "ID": "Q55",
-                        "name": "Check whether a link list is a palindrome"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q7",
-                        "idQ": "Q7",
-                        "ID": "Q56",
-                        "name": "Reverse a linked list iteratively and recursively"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q8",
-                        "idQ": "Q8",
-                        "ID": "Q57",
-                        "name": "Given a linked list, where each node has a link to a random node in the list, make a copy of the entire list"
-                    },
-                    {
-                        "categoryname": "Linked Lists",
-                        "idC": "C5",
-                        "idCQ": "C5Q9",
-                        "idQ": "Q9",
-                        "ID": "Q58",
-                        "name": "Given a singly LL A->B->C->D->E->F... convert to B->A->D->C->F->E..."
-                    }
-                ]
-            },
-            {
-                "idC": "C6",
-                "catname": "Sorting",
-                "question": [
-                    {
-                        "categoryname": "Sorting",
-                        "idC": "C6",
-                        "idCQ": "C6Q1",
-                        "idQ": "Q1",
-                        "ID": "Q59",
-                        "name": "Implement bubble sort"
-                    },
-                    {
-                        "categoryname": "Sorting",
-                        "idC": "C6",
-                        "idCQ": "C6Q2",
-                        "idQ": "Q2",
-                        "ID": "Q60",
-                        "name": "Implement selection sort"
-                    },
-                    {
-                        "categoryname": "Sorting",
-                        "idC": "C6",
-                        "idCQ": "C6Q3",
-                        "idQ": "Q3",
-                        "ID": "Q61",
-                        "name": "Implement insertion sort"
-                    },
-                    {
-                        "categoryname": "Sorting",
-                        "idC": "C6",
-                        "idCQ": "C6Q4",
-                        "idQ": "Q4",
-                        "ID": "Q62",
-                        "name": "Implement merge sort"
-                    },
-                    {
-                        "categoryname": "Sorting",
-                        "idC": "C6",
-                        "idCQ": "C6Q5",
-                        "idQ": "Q5",
-                        "ID": "Q63",
-                        "name": "Implement quick sort"
-                    }
-                ]
-            },
-            {
-                "idC": "C7",
-                "catname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                "question": [
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q1",
-                        "idQ": "Q1",
-                        "ID": "Q64",
-                        "name": "Basic bitwise operations"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q2",
-                        "idQ": "Q2",
-                        "ID": "Q65",
-                        "name": "How do you program a min heap using Nodes"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q3",
-                        "idQ": "Q3",
-                        "ID": "Q66",
-                        "name": "Find the max value in an array. The array is ``semi-sorted``.",
-                        "notes": "Ex. { 1 3 4 7 9 10 12 13 12 6 3 }"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q4",
-                        "idQ": "Q4",
-                        "ID": "Q67",
-                        "name": "Write a code that accepts integers as arrays and outputs the multiplication result as an array."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q5",
-                        "idQ": "Q5",
-                        "ID": "Q68",
-                        "name": "Write a code that takes the coordinates of multiple rectangles as input and returns as output the coordinates of the rectangle that is the intersection of all the rectangles."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q6",
-                        "idQ": "Q6",
-                        "ID": "Q69",
-                        "name": "Typical low level CS questions about sorting algorithms and operational cost."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q7",
-                        "idQ": "Q7",
-                        "ID": "Q70",
-                        "name": "Median finding algorithm - find the median of 'n' numbers and a little bit of binary search tree implementation"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q8",
-                        "idQ": "Q8",
-                        "ID": "Q71",
-                        "name": "Find the largest rectangle with all 0s in an matrix with only 0 and 1."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q9",
-                        "idQ": "Q9",
-                        "ID": "Q72",
-                        "name": "Convert char string to integer."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q10",
-                        "idQ": "Q10",
-                        "ID": "Q73",
-                        "name": "Find occurrences of a number in sorted array (allow duplicates)."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q11",
-                        "idQ": "Q11",
-                        "ID": "Q74",
-                        "name": "If integer array used to store big integers (one integer store one digit), implement arithmetic operations."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q12",
-                        "idQ": "Q12",
-                        "ID": "Q75",
-                        "name": "How to build a heap?"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q13",
-                        "idQ": "Q13",
-                        "ID": "Q76",
-                        "name": "What is the optimized version of the knn algorithm?"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q14",
-                        "idQ": "Q14",
-                        "ID": "Q77",
-                        "name": "Write a recursive function to calculate pascal's pyramid numbers."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q15",
-                        "idQ": "Q15",
-                        "ID": "Q78",
-                        "name": "A question related to binary search, which is a kind of weak spot and I always avoid using it."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q16",
-                        "idQ": "Q16",
-                        "ID": "Q79",
-                        "name": "Explain Singleton structure, how to create"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q17",
-                        "idQ": "Q17",
-                        "ID": "Q80",
-                        "name": "Given k sorted pivots, write procedure partition in quicksort"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q18",
-                        "idQ": "Q18",
-                        "ID": "Q81",
-                        "name": "Find the median of three numbers."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q19",
-                        "idQ": "Q19",
-                        "ID": "Q82",
-                        "name": "Generate all balanced parentheses combinations of given length."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q20",
-                        "idQ": "Q20",
-                        "ID": "Q83",
-                        "name": "The second question asked, how to find two missing integers in an unsorted array"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q21",
-                        "idQ": "Q21",
-                        "ID": "Q84",
-                        "name": "Given an array of characters in it, how would you reverse it?"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q22",
-                        "idQ": "Q22",
-                        "ID": "Q85",
-                        "name": "Write a program to comparing two array, one being very large"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q23",
-                        "idQ": "Q23",
-                        "ID": "Q86",
-                        "name": "To generate a fibonacci number sequence, and discuss its time and space complexity"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q24",
-                        "idQ": "Q24",
-                        "ID": "Q87",
-                        "name": "To merge two sorted integer arrays."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q25",
-                        "idQ": "Q25",
-                        "ID": "Q88",
-                        "name": "Returning the n-th element of a linked list."
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q26",
-                        "idQ": "Q26",
-                        "ID": "Q89",
-                        "name": "How to randomly select a number with equal probability from an array with unknown size?",
-                        "notes": "Write an algorithm to find the 3rd highest number from an array of random integers"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q27",
-                        "idQ": "Q27",
-                        "ID": "Q90",
-                        "name": "Given a sorted array of n integers that has been rotated an unknown number of times, write code to find an element in the array. Sorted in increasing order",
-                        "notes": "Input: find 5 in (15, 16, 19, 20, 25, 1, 3, 4, 5, 6, 10, 14) Output 8"
-                    },
-                    {
-                        "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
-                        "idC": "C7",
-                        "idCQ": "C7Q28",
-                        "idQ": "Q28",
-                        "ID": "Q91",
-                        "name": "Implement a simple regular expression matching function"
-                    }
-                ]
-            },
-            {
-                "idC": "C8",
-                "catname": "Uncategorized",
-                "question": [
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q1",
-                        "idQ": "Q1",
-                        "ID": "Q92",
-                        "name": "Given a max-heap, how do I find the top k items?"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q2",
-                        "idQ": "Q2",
-                        "ID": "Q93",
-                        "name": "Find the border length created from a conglomeration of various 2D rectangles."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q3",
-                        "idQ": "Q3",
-                        "ID": "Q94",
-                        "name": "Write a minPeak function for a stack (function that returns the minimum element in the stack)."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q4",
-                        "idQ": "Q4",
-                        "ID": "Q95",
-                        "name": "Find the nth fib number"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q5",
-                        "idQ": "Q5",
-                        "ID": "Q96",
-                        "name": "Design a function in your favorite programming language to convert a camelCase string to all lowercase."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q6",
-                        "idQ": "Q6",
-                        "ID": "Q97",
-                        "name": "Implement a hashset"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q7",
-                        "idQ": "Q7",
-                        "ID": "Q98",
-                        "name": "Given a corpus of valid words, design a function that takes a word as input and outputs all valid anagrams of that word."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q8",
-                        "idQ": "Q8",
-                        "ID": "Q99",
-                        "name": "Given an input of a 3D matrix of ones and zeros, count the number of contiguous 1-filled regions (as separated by 0-filled regions), as well as the size of the largest one (I think; doesn't really change the problem much)."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q9",
-                        "idQ": "Q9",
-                        "ID": "Q100",
-                        "name": "You have two sets. How would you know that they converge."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q10",
-                        "idQ": "Q10",
-                        "ID": "Q101",
-                        "name": "Given a bag of nuts and a bag of bolts, each having a different size within a bag but exactly one match in the other bag, give a fast algorithm to find all matches"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q11",
-                        "idQ": "Q11",
-                        "ID": "Q102",
-                        "name": "Preorder traversal without recursion"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q12",
-                        "idQ": "Q12",
-                        "ID": "Q103",
-                        "name": "Find the largest possible difference in an array of integers, such that the smaller integer occurs earlier in the array."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q13",
-                        "idQ": "Q13",
-                        "ID": "Q104",
-                        "name": "How to find if n numbers in a list sum up to an integer k?"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q14",
-                        "idQ": "Q14",
-                        "ID": "Q105",
-                        "name": "Find largest palindrome in string"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q15",
-                        "idQ": "Q15",
-                        "ID": "Q106",
-                        "name": "Make an anagram solver that returns all valid dictionary words given a set of characters."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q16",
-                        "idQ": "Q16",
-                        "ID": "Q107",
-                        "name": "Sort a string by the order it's characters appear in another string"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q17",
-                        "idQ": "Q17",
-                        "ID": "Q108",
-                        "name": "Given a value k and an array , design an efficient algorithm that should output the number of pairs that sum up to k."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q18",
-                        "idQ": "Q18",
-                        "ID": "Q109",
-                        "name": "How do you find three numbers that sum to 0? (in a list). Now can you do it under O(n^3)?"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q19",
-                        "idQ": "Q19",
-                        "ID": "Q110",
-                        "name": "Given a Fibonacci number, tell us which index it occurs at."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q20",
-                        "idQ": "Q20",
-                        "ID": "Q111",
-                        "name": "Describe an algorithm that would find n numbers in a list that sum to 0."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q21",
-                        "idQ": "Q21",
-                        "ID": "Q112",
-                        "name": "Given an array of n unsorted ints, with the condition that each number is at most k positions away from its final sorted position, give an efficient sorting algorithm"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q22",
-                        "idQ": "Q22",
-                        "ID": "Q113",
-                        "name": "Give an efficient solution for subset sum."
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q23",
-                        "idQ": "Q23",
-                        "ID": "Q114",
-                        "name": "Given two (i,j) coordinates of a cell in two dimensional matrix. These coordinates are the lower left and upper right corner of a rectangle contained within the matrix. Sum all the elements in the matrix. Time and space?"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q24",
-                        "idQ": "Q24",
-                        "ID": "Q115",
-                        "name": "String has all unique characters"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q25",
-                        "idQ": "Q25",
-                        "ID": "Q116",
-                        "name": "Two strings to see if one is a permutation"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q26",
-                        "idQ": "Q26",
-                        "ID": "Q117",
-                        "name": "Remove dups from an unsorted linked list"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q27",
-                        "idQ": "Q27",
-                        "ID": "Q118",
-                        "name": "Find kth algorithm of singly linked list"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q28",
-                        "idQ": "Q28",
-                        "ID": "Q119",
-                        "name": "Delete a node in the middle of a singly linked list given access to that node"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q29",
-                        "idQ": "Q29",
-                        "ID": "Q120",
-                        "name": "Write code to partition a linked list around a value x such that all nodes less than x come before all nodes greater than or equal to x"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q30",
-                        "idQ": "Q30",
-                        "ID": "Q121",
-                        "name": "Single array to implement three stacks"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q31",
-                        "idQ": "Q31",
-                        "ID": "Q122",
-                        "name": "Stack with min element"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q32",
-                        "idQ": "Q32",
-                        "ID": "Q123",
-                        "name": "Towers of Hanoi"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q33",
-                        "idQ": "Q33",
-                        "ID": "Q124",
-                        "name": "Sort a stack in ascending order using at most one additional stack to hold items but you may not copy the elements into any other data structure"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q34",
-                        "idQ": "Q34",
-                        "ID": "Q125",
-                        "name": "Function to see if a tree is balanced"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q35",
-                        "idQ": "Q35",
-                        "ID": "Q126",
-                        "name": "Graph algorithm, route between two nodes"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q36",
-                        "idQ": "Q36",
-                        "ID": "Q127",
-                        "name": "Create bst from sorted array with minimal height"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q37",
-                        "idQ": "Q37",
-                        "ID": "Q128",
-                        "name": "Binary tree is a bst"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q38",
-                        "idQ": "Q38",
-                        "ID": "Q129",
-                        "name": "A child is running up a staircase with n steps, and cah hop either 1 step, 2 steps, or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q39",
-                        "idQ": "Q39",
-                        "ID": "Q130",
-                        "name": "Two sorted arrays, A has a large enough buffer at the end to hold B, merge B into A in sorted order"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q40",
-                        "idQ": "Q40",
-                        "ID": "Q131",
-                        "name": "Write a method to sort an array of strings so that all the anagrams are next to each other"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q41",
-                        "idQ": "Q41",
-                        "ID": "Q132",
-                        "name": "Find an element in a sorted array that has been rotated an unknown number of times"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q42",
-                        "idQ": "Q42",
-                        "ID": "Q133",
-                        "name": "Implement a method that returns true if the edit distance between two strings is less than 2 (1 or 0) or false otherwise"
-                    },
-                    {
-                        "categoryname": "Uncategorized",
-                        "idC": "C8",
-                        "idCQ": "C8Q43",
-                        "idQ": "Q43",
-                        "ID": "Q134",
-                        "name": "Given two lists of chars, return the first with removed characters that appear in the second list."
-                    }
-                ]
-            }
+  "TechQuestions": {
+    "category": [
+      {
+        "catname": "General",
+        "idC": "C1",
+        "question": [
+          {
+            "ID": "Q1",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q1",
+            "idQ": "Q1",
+            "title": "Find the most frequent integer in an array"
+          },
+          {
+            "ID": "Q2",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q2",
+            "idQ": "Q2",
+            "title": "Find pairs in an integer array whose sum is equal to 10 (bonus; do it in linear time)"
+          },
+          {
+            "ID": "Q3",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q3",
+            "idQ": "Q3",
+            "title": "Given 2 integer arrays, determine if the 2nd array is a rotated version of the 1st array.",
+            "notes": "Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}"
+          },
+          {
+            "ID": "Q4",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q4",
+            "idQ": "Q4",
+            "title": "Write fibbonaci iteratively and recursively (bonus; use dynamic programming)"
+          },
+          {
+            "ID": "Q5",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q5",
+            "idQ": "Q5",
+            "title": "Find the only element in an array that only occurs once."
+          },
+          {
+            "ID": "Q6",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q6",
+            "idQ": "Q6",
+            "title": "Find the common elements of 2 int arrays"
+          },
+          {
+            "ID": "Q7",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q7",
+            "idQ": "Q7",
+            "title": "Implement binary search of a sorted array of integers"
+          },
+          {
+            "ID": "Q8",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q8",
+            "idQ": "Q8",
+            "title": "Implement binary search in a rotated array (ex. {5,6,7,8,1,2,3})"
+          },
+          {
+            "ID": "Q9",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q9",
+            "idQ": "Q9",
+            "title": "Use dynamic programming to find the first X prime numbers"
+          },
+          {
+            "ID": "Q10",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q10",
+            "idQ": "Q10",
+            "title": "Write a function that prints out the binary form of an int"
+          },
+          {
+            "ID": "Q11",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q11",
+            "idQ": "Q11",
+            "title": "Implement parseInt"
+          },
+          {
+            "ID": "Q12",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q12",
+            "idQ": "Q12",
+            "title": "Implement squareroot function"
+          },
+          {
+            "ID": "Q13",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q13",
+            "idQ": "Q13",
+            "title": "Implement an exponent function (bonus; now try in log(n) time)"
+          },
+          {
+            "ID": "Q14",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q14",
+            "idQ": "Q14",
+            "title": "Write a multiply function that multiples 2 integers without using *"
+          },
+          {
+            "ID": "Q15",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q15",
+            "idQ": "Q15",
+            "title": "Given n points, return the top k points that are closest to the origin"
+          },
+          {
+            "ID": "Q16",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q16",
+            "idQ": "Q16",
+            "title": "We’re going to find “Word Twins”, which are pairs of English words, at least 4 letters long, where the first three letters of one are the last three letters of another.  For example, “strategy” and “Egypt”."
+          },
+          {
+            "ID": "Q17",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q17",
+            "idQ": "Q17",
+            "title": "Given a 3*3 matrix, and 1-8 numbers in random order, 1 place as space.",
+            "notes": "Write code to find the min exchange of numbers to make the matrix in order.5 4 1           1 2 33   2   --->    8   47 8 6           7 6 5"
+          },
+          {
+            "ID": "Q18",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q18",
+            "idQ": "Q18",
+            "title": "There is k parenthesis, write code to calculate how many permutations could have.",
+            "notes": "For 2 parenthesis, there is 2 permutations: ()() and (())."
+          },
+          {
+            "ID": "Q19",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q19",
+            "idQ": "Q19",
+            "title": "**HARD**; Given a function rand5() that returns a random int between 0 and 5, implement rand7()"
+          },
+          {
+            "ID": "Q20",
+            "categoryname": "General",
+            "idC": "C1",
+            "idCQ": "C1Q20",
+            "idQ": "Q20",
+            "title": "**HARD**; Given a 2D array of 1s and 0s, count the number of ``islands of 1s`` (e.g. groups of connecting 1s)"
+          }
         ]
-    }
+      },
+      {
+        "catname": "Strings",
+        "idC": "C2",
+        "question": [
+          {
+            "ID": "Q21",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q1",
+            "idQ": "Q1",
+            "title": "Find the first non-repeated character in a String"
+          },
+          {
+            "ID": "Q22",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q2",
+            "idQ": "Q2",
+            "title": "Reverse a String iteratively and recursively"
+          },
+          {
+            "ID": "Q23",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q3",
+            "idQ": "Q3",
+            "title": "Determine if 2 Strings are anagrams"
+          },
+          {
+            "ID": "Q24",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q4",
+            "idQ": "Q4",
+            "title": "Check if String is a palindrome"
+          },
+          {
+            "ID": "Q25",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q5",
+            "idQ": "Q5",
+            "title": "Check if a String is composed of all unique characters"
+          },
+          {
+            "ID": "Q26",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q6",
+            "idQ": "Q6",
+            "title": "Determine if a String is an int or a double"
+          },
+          {
+            "ID": "Q27",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q7",
+            "idQ": "Q7",
+            "title": "**HARD**; Find the longest palindrome in a String"
+          },
+          {
+            "ID": "Q28",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q8",
+            "idQ": "Q8",
+            "title": "**HARD**; Print all permutations of a String"
+          },
+          {
+            "ID": "Q29",
+            "categoryname": "Strings",
+            "idC": "C2",
+            "idCQ": "C2Q9",
+            "idQ": "Q9",
+            "title": "**HARD**; Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right"
+          }
+        ]
+      },
+      {
+        "catname": "Trees",
+        "idC": "C3",
+        "question": [
+          {
+            "ID": "Q30",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q1",
+            "idQ": "Q1",
+            "title": "Implement a BST with insert and delete functions"
+          },
+          {
+            "ID": "Q31",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q2",
+            "idQ": "Q2",
+            "title": "Print a tree using BFS and DFS"
+          },
+          {
+            "ID": "Q32",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q3",
+            "idQ": "Q3",
+            "title": "Write a function that determines if a tree is a BST"
+          },
+          {
+            "ID": "Q33",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q4",
+            "idQ": "Q4",
+            "title": "Find the smallest element in a BST"
+          },
+          {
+            "ID": "Q34",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q5",
+            "idQ": "Q5",
+            "title": "Find the 2nd largest number in a BST"
+          },
+          {
+            "ID": "Q35",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q6",
+            "idQ": "Q6",
+            "title": "Given a binary tree which is a sum tree (child nodes add to parent), write an algorithm to determine whether the tree is a valid sum tree"
+          },
+          {
+            "ID": "Q36",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q7",
+            "idQ": "Q7",
+            "title": "Find the distance between 2 nodes in a BST and a normal binary tree"
+          },
+          {
+            "ID": "Q37",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q8",
+            "idQ": "Q8",
+            "title": "Print the coordinates of every node in a binary tree, where root is 0,0"
+          },
+          {
+            "ID": "Q38",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q9",
+            "idQ": "Q9",
+            "title": "Print a tree by levels"
+          },
+          {
+            "ID": "Q39",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q10",
+            "idQ": "Q10",
+            "title": "Given a binary tree which is a sum tree, write an algorithm to determine whether the tree is a valid sum tree"
+          },
+          {
+            "ID": "Q40",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q11",
+            "idQ": "Q11",
+            "title": "Given a tree, verify that it contains a subtree."
+          },
+          {
+            "ID": "Q41",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q12",
+            "idQ": "Q12",
+            "title": "Convert binary tree to doubly linked list"
+          },
+          {
+            "ID": "Q42",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q13",
+            "idQ": "Q13",
+            "title": "**HARD**; Find the max distance between 2 nodes in a BST."
+          },
+          {
+            "ID": "Q43",
+            "categoryname": "Trees",
+            "idC": "C3",
+            "idCQ": "C3Q14",
+            "idQ": "Q14",
+            "title": "**HARD**; Construct a BST given the pre-order and in-order traversal Strings"
+          }
+        ]
+      },
+      {
+        "catname": "Stacks, Queues, and Heaps",
+        "idC": "C4",
+        "question": [
+          {
+            "ID": "Q44",
+            "categoryname": "Stacks, Queues, and Heaps",
+            "idC": "C4",
+            "idCQ": "C4Q1",
+            "idQ": "Q1",
+            "title": "Implement a stack with push and pop functions"
+          },
+          {
+            "ID": "Q45",
+            "categoryname": "Stacks, Queues, and Heaps",
+            "idC": "C4",
+            "idCQ": "C4Q2",
+            "idQ": "Q2",
+            "title": "Implement a queue with queue and dequeue functions"
+          },
+          {
+            "ID": "Q46",
+            "categoryname": "Stacks, Queues, and Heaps",
+            "idC": "C4",
+            "idCQ": "C4Q3",
+            "idQ": "Q3",
+            "title": "Find the minimum element in a stack in O(1) time"
+          },
+          {
+            "ID": "Q47",
+            "categoryname": "Stacks, Queues, and Heaps",
+            "idC": "C4",
+            "idCQ": "C4Q4",
+            "idQ": "Q4",
+            "title": "Write a function that sorts a stack (bonus; sort the stack in place without extra memory)"
+          },
+          {
+            "ID": "Q48",
+            "categoryname": "Stacks, Queues, and Heaps",
+            "idC": "C4",
+            "idCQ": "C4Q5",
+            "idQ": "Q5",
+            "title": "Implement a binary min heap. Turn it into a binary max heap"
+          },
+          {
+            "ID": "Q49",
+            "categoryname": "Stacks, Queues, and Heaps",
+            "idC": "C4",
+            "idCQ": "C4Q6",
+            "idQ": "Q6",
+            "title": "**HARD**; Implement a queue using two stacks"
+          }
+        ]
+      },
+      {
+        "catname": "Linked Lists",
+        "idC": "C5",
+        "question": [
+          {
+            "ID": "Q50",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q1",
+            "idQ": "Q1",
+            "title": "Implement a linked list (with insert and delete functions)"
+          },
+          {
+            "ID": "Q51",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q2",
+            "idQ": "Q2",
+            "title": "Find the Nth element in a linked list"
+          },
+          {
+            "ID": "Q52",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q3",
+            "idQ": "Q3",
+            "title": "Remove the Nth element of a linked list"
+          },
+          {
+            "ID": "Q53",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q4",
+            "idQ": "Q4",
+            "title": "Check if a linked list has cycles"
+          },
+          {
+            "ID": "Q54",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q5",
+            "idQ": "Q5",
+            "title": "Given a circular linked list, find the node at the beginning of the loop.",
+            "notes": "Ex. A-->B-->C --> D-->E -->C, C is the node that begins the loop"
+          },
+          {
+            "ID": "Q55",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q6",
+            "idQ": "Q6",
+            "title": "Check whether a link list is a palindrome"
+          },
+          {
+            "ID": "Q56",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q7",
+            "idQ": "Q7",
+            "title": "Reverse a linked list iteratively and recursively"
+          },
+          {
+            "ID": "Q57",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q8",
+            "idQ": "Q8",
+            "title": "Given a linked list, where each node has a link to a random node in the list, make a copy of the entire list"
+          },
+          {
+            "ID": "Q58",
+            "categoryname": "Linked Lists",
+            "idC": "C5",
+            "idCQ": "C5Q9",
+            "idQ": "Q9",
+            "title": "Given a singly LL A->B->C->D->E->F... convert to B->A->D->C->F->E..."
+          }
+        ]
+      },
+      {
+        "catname": "Sorting",
+        "idC": "C6",
+        "question": [
+          {
+            "ID": "Q59",
+            "categoryname": "Sorting",
+            "idC": "C6",
+            "idCQ": "C6Q1",
+            "idQ": "Q1",
+            "title": "Implement bubble sort"
+          },
+          {
+            "ID": "Q60",
+            "categoryname": "Sorting",
+            "idC": "C6",
+            "idCQ": "C6Q2",
+            "idQ": "Q2",
+            "title": "Implement selection sort"
+          },
+          {
+            "ID": "Q61",
+            "categoryname": "Sorting",
+            "idC": "C6",
+            "idCQ": "C6Q3",
+            "idQ": "Q3",
+            "title": "Implement insertion sort"
+          },
+          {
+            "ID": "Q62",
+            "categoryname": "Sorting",
+            "idC": "C6",
+            "idCQ": "C6Q4",
+            "idQ": "Q4",
+            "title": "Implement merge sort"
+          },
+          {
+            "ID": "Q63",
+            "categoryname": "Sorting",
+            "idC": "C6",
+            "idCQ": "C6Q5",
+            "idQ": "Q5",
+            "title": "Implement quick sort"
+          }
+        ]
+      },
+      {
+        "catname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+        "idC": "C7",
+        "question": [
+          {
+            "ID": "Q64",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q1",
+            "idQ": "Q1",
+            "title": "Basic bitwise operations"
+          },
+          {
+            "ID": "Q65",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q2",
+            "idQ": "Q2",
+            "title": "How do you program a min heap using Nodes"
+          },
+          {
+            "ID": "Q66",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q3",
+            "idQ": "Q3",
+            "title": "Find the max value in an array. The array is ``semi-sorted``.",
+            "notes": "Ex. { 1 3 4 7 9 10 12 13 12 6 3 }"
+          },
+          {
+            "ID": "Q67",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q4",
+            "idQ": "Q4",
+            "title": "Write a code that accepts integers as arrays and outputs the multiplication result as an array."
+          },
+          {
+            "ID": "Q68",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q5",
+            "idQ": "Q5",
+            "title": "Write a code that takes the coordinates of multiple rectangles as input and returns as output the coordinates of the rectangle that is the intersection of all the rectangles."
+          },
+          {
+            "ID": "Q69",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q6",
+            "idQ": "Q6",
+            "title": "Typical low level CS questions about sorting algorithms and operational cost."
+          },
+          {
+            "ID": "Q70",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q7",
+            "idQ": "Q7",
+            "title": "Median finding algorithm - find the median of 'n' numbers and a little bit of binary search tree implementation"
+          },
+          {
+            "ID": "Q71",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q8",
+            "idQ": "Q8",
+            "title": "Find the largest rectangle with all 0s in an matrix with only 0 and 1."
+          },
+          {
+            "ID": "Q72",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q9",
+            "idQ": "Q9",
+            "title": "Convert char string to integer."
+          },
+          {
+            "ID": "Q73",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q10",
+            "idQ": "Q10",
+            "title": "Find occurrences of a number in sorted array (allow duplicates)."
+          },
+          {
+            "ID": "Q74",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q11",
+            "idQ": "Q11",
+            "title": "If integer array used to store big integers (one integer store one digit), implement arithmetic operations."
+          },
+          {
+            "ID": "Q75",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q12",
+            "idQ": "Q12",
+            "title": "How to build a heap?"
+          },
+          {
+            "ID": "Q76",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q13",
+            "idQ": "Q13",
+            "title": "What is the optimized version of the knn algorithm?"
+          },
+          {
+            "ID": "Q77",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q14",
+            "idQ": "Q14",
+            "title": "Write a recursive function to calculate pascal's pyramid numbers."
+          },
+          {
+            "ID": "Q78",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q15",
+            "idQ": "Q15",
+            "title": "A question related to binary search, which is a kind of weak spot and I always avoid using it."
+          },
+          {
+            "ID": "Q79",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q16",
+            "idQ": "Q16",
+            "title": "Explain Singleton structure, how to create"
+          },
+          {
+            "ID": "Q80",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q17",
+            "idQ": "Q17",
+            "title": "Given k sorted pivots, write procedure partition in quicksort"
+          },
+          {
+            "ID": "Q81",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q18",
+            "idQ": "Q18",
+            "title": "Find the median of three numbers."
+          },
+          {
+            "ID": "Q82",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q19",
+            "idQ": "Q19",
+            "title": "Generate all balanced parentheses combinations of given length."
+          },
+          {
+            "ID": "Q83",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q20",
+            "idQ": "Q20",
+            "title": "The second question asked, how to find two missing integers in an unsorted array"
+          },
+          {
+            "ID": "Q84",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q21",
+            "idQ": "Q21",
+            "title": "Given an array of characters in it, how would you reverse it?"
+          },
+          {
+            "ID": "Q85",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q22",
+            "idQ": "Q22",
+            "title": "Write a program to comparing two array, one being very large"
+          },
+          {
+            "ID": "Q86",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q23",
+            "idQ": "Q23",
+            "title": "To generate a fibonacci number sequence, and discuss its time and space complexity"
+          },
+          {
+            "ID": "Q87",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q24",
+            "idQ": "Q24",
+            "title": "To merge two sorted integer arrays."
+          },
+          {
+            "ID": "Q88",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q25",
+            "idQ": "Q25",
+            "title": "Returning the n-th element of a linked list."
+          },
+          {
+            "ID": "Q89",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q26",
+            "idQ": "Q26",
+            "title": "How to randomly select a number with equal probability from an array with unknown size?",
+            "notes": "Write an algorithm to find the 3rd highest number from an array of random integers"
+          },
+          {
+            "ID": "Q90",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q27",
+            "idQ": "Q27",
+            "title": "Given a sorted array of n integers that has been rotated an unknown number of times, write code to find an element in the array. Sorted in increasing order",
+            "notes": "Input: find 5 in (15, 16, 19, 20, 25, 1, 3, 4, 5, 6, 10, 14) Output 8"
+          },
+          {
+            "ID": "Q91",
+            "categoryname": "BSTs, Heaps, Search Algorithms, Sort Algorithms, Intersection, median, hashmap, caching system, basic algorithms** ",
+            "idC": "C7",
+            "idCQ": "C7Q28",
+            "idQ": "Q28",
+            "title": "Implement a simple regular expression matching function"
+          }
+        ]
+      },
+      {
+        "catname": "Uncategorized",
+        "idC": "C8",
+        "question": [
+          {
+            "ID": "Q92",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q1",
+            "idQ": "Q1",
+            "title": "Given a max-heap, how do I find the top k items?"
+          },
+          {
+            "ID": "Q93",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q2",
+            "idQ": "Q2",
+            "title": "Find the border length created from a conglomeration of various 2D rectangles."
+          },
+          {
+            "ID": "Q94",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q3",
+            "idQ": "Q3",
+            "title": "Write a minPeak function for a stack (function that returns the minimum element in the stack)."
+          },
+          {
+            "ID": "Q95",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q4",
+            "idQ": "Q4",
+            "title": "Find the nth fib number"
+          },
+          {
+            "ID": "Q96",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q5",
+            "idQ": "Q5",
+            "title": "Design a function in your favorite programming language to convert a camelCase string to all lowercase."
+          },
+          {
+            "ID": "Q97",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q6",
+            "idQ": "Q6",
+            "title": "Implement a hashset"
+          },
+          {
+            "ID": "Q98",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q7",
+            "idQ": "Q7",
+            "title": "Given a corpus of valid words, design a function that takes a word as input and outputs all valid anagrams of that word."
+          },
+          {
+            "ID": "Q99",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q8",
+            "idQ": "Q8",
+            "title": "Given an input of a 3D matrix of ones and zeros, count the number of contiguous 1-filled regions (as separated by 0-filled regions), as well as the size of the largest one (I think; doesn't really change the problem much)."
+          },
+          {
+            "ID": "Q100",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q9",
+            "idQ": "Q9",
+            "title": "You have two sets. How would you know that they converge."
+          },
+          {
+            "ID": "Q101",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q10",
+            "idQ": "Q10",
+            "title": "Given a bag of nuts and a bag of bolts, each having a different size within a bag but exactly one match in the other bag, give a fast algorithm to find all matches"
+          },
+          {
+            "ID": "Q102",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q11",
+            "idQ": "Q11",
+            "title": "Preorder traversal without recursion"
+          },
+          {
+            "ID": "Q103",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q12",
+            "idQ": "Q12",
+            "title": "Find the largest possible difference in an array of integers, such that the smaller integer occurs earlier in the array."
+          },
+          {
+            "ID": "Q104",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q13",
+            "idQ": "Q13",
+            "title": "How to find if n numbers in a list sum up to an integer k?"
+          },
+          {
+            "ID": "Q105",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q14",
+            "idQ": "Q14",
+            "title": "Find largest palindrome in string"
+          },
+          {
+            "ID": "Q106",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q15",
+            "idQ": "Q15",
+            "title": "Make an anagram solver that returns all valid dictionary words given a set of characters."
+          },
+          {
+            "ID": "Q107",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q16",
+            "idQ": "Q16",
+            "title": "Sort a string by the order it's characters appear in another string"
+          },
+          {
+            "ID": "Q108",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q17",
+            "idQ": "Q17",
+            "title": "Given a value k and an array , design an efficient algorithm that should output the number of pairs that sum up to k."
+          },
+          {
+            "ID": "Q109",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q18",
+            "idQ": "Q18",
+            "title": "How do you find three numbers that sum to 0? (in a list). Now can you do it under O(n^3)?"
+          },
+          {
+            "ID": "Q110",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q19",
+            "idQ": "Q19",
+            "title": "Given a Fibonacci number, tell us which index it occurs at."
+          },
+          {
+            "ID": "Q111",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q20",
+            "idQ": "Q20",
+            "title": "Describe an algorithm that would find n numbers in a list that sum to 0."
+          },
+          {
+            "ID": "Q112",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q21",
+            "idQ": "Q21",
+            "title": "Given an array of n unsorted ints, with the condition that each number is at most k positions away from its final sorted position, give an efficient sorting algorithm"
+          },
+          {
+            "ID": "Q113",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q22",
+            "idQ": "Q22",
+            "title": "Give an efficient solution for subset sum."
+          },
+          {
+            "ID": "Q114",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q23",
+            "idQ": "Q23",
+            "title": "Given two (i,j) coordinates of a cell in two dimensional matrix. These coordinates are the lower left and upper right corner of a rectangle contained within the matrix. Sum all the elements in the matrix. Time and space?"
+          },
+          {
+            "ID": "Q115",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q24",
+            "idQ": "Q24",
+            "title": "String has all unique characters"
+          },
+          {
+            "ID": "Q116",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q25",
+            "idQ": "Q25",
+            "title": "Two strings to see if one is a permutation"
+          },
+          {
+            "ID": "Q117",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q26",
+            "idQ": "Q26",
+            "title": "Remove dups from an unsorted linked list"
+          },
+          {
+            "ID": "Q118",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q27",
+            "idQ": "Q27",
+            "title": "Find kth algorithm of singly linked list"
+          },
+          {
+            "ID": "Q119",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q28",
+            "idQ": "Q28",
+            "title": "Delete a node in the middle of a singly linked list given access to that node"
+          },
+          {
+            "ID": "Q120",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q29",
+            "idQ": "Q29",
+            "title": "Write code to partition a linked list around a value x such that all nodes less than x come before all nodes greater than or equal to x"
+          },
+          {
+            "ID": "Q121",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q30",
+            "idQ": "Q30",
+            "title": "Single array to implement three stacks"
+          },
+          {
+            "ID": "Q122",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q31",
+            "idQ": "Q31",
+            "title": "Stack with min element"
+          },
+          {
+            "ID": "Q123",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q32",
+            "idQ": "Q32",
+            "title": "Towers of Hanoi"
+          },
+          {
+            "ID": "Q124",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q33",
+            "idQ": "Q33",
+            "title": "Sort a stack in ascending order using at most one additional stack to hold items but you may not copy the elements into any other data structure"
+          },
+          {
+            "ID": "Q125",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q34",
+            "idQ": "Q34",
+            "title": "Function to see if a tree is balanced"
+          },
+          {
+            "ID": "Q126",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q35",
+            "idQ": "Q35",
+            "title": "Graph algorithm, route between two nodes"
+          },
+          {
+            "ID": "Q127",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q36",
+            "idQ": "Q36",
+            "title": "Create bst from sorted array with minimal height"
+          },
+          {
+            "ID": "Q128",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q37",
+            "idQ": "Q37",
+            "title": "Binary tree is a bst"
+          },
+          {
+            "ID": "Q129",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q38",
+            "idQ": "Q38",
+            "title": "A child is running up a staircase with n steps, and cah hop either 1 step, 2 steps, or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs"
+          },
+          {
+            "ID": "Q130",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q39",
+            "idQ": "Q39",
+            "title": "Two sorted arrays, A has a large enough buffer at the end to hold B, merge B into A in sorted order"
+          },
+          {
+            "ID": "Q131",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q40",
+            "idQ": "Q40",
+            "title": "Write a method to sort an array of strings so that all the anagrams are next to each other"
+          },
+          {
+            "ID": "Q132",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q41",
+            "idQ": "Q41",
+            "title": "Find an element in a sorted array that has been rotated an unknown number of times"
+          },
+          {
+            "ID": "Q133",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q42",
+            "idQ": "Q42",
+            "title": "Implement a method that returns true if the edit distance between two strings is less than 2 (1 or 0) or false otherwise"
+          },
+          {
+            "ID": "Q134",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q43",
+            "idQ": "Q43",
+            "title": "Given two lists of chars, return the first with removed characters that appear in the second list."
+          }
+        ]
+      }
+    ]
+  }
 }
