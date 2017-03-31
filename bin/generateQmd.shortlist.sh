@@ -14,7 +14,7 @@ cat QUESTIONS.json | jq '.' | awk ' \
 /^ *"idCQ" *:/ {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);idCQ=$2;} \
 /^ *"ID" *:/   {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);ID=$2;} \
 /^ *"notes" *:/   {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);qnotes=$2;} \
-/^ *"name" *:/ {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);print "##",$2; \
+/^ *"title" *:/ {FS = ":";gsub(/^ *" */,"",$2);gsub(/",$/,"",$2);print "##",$2; \
                 print "    ID    Questions:",ID;
                 print "    ID     Category:",idC;
                 print "    ID CatQuestions:",idCQ, "\n\n";

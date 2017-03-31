@@ -11,7 +11,7 @@ cat QUESTIONS.json | jq '.' | jq -r \
     '.TechQuestions.category[] |
     ( (.catname | "\n#Category: \(.)"),
       (.question[] | ( 
-        (.name  | "\n## \(.)" ) , 
+        (.title  | "\n## \(.)" ) , 
         (.ID    | "\n    ID: \(.)"),
         (.idCQ  | "    idCQ: \(.)"),
         (.idQ   | "    idQ: \(.)"),
