@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "TechQuestions": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "idC": {
+                "type": "string"
+              },
+              "catname": {
+                "type": "string"
+              },
+              "question": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "categoryname": {
+                      "type": "string"
+                    },
+                    "idC": {
+                      "type": "string"
+                    },
+                    "idCQ": {
+                      "type": "string"
+                    },
+                    "idQ": {
+                      "type": "string"
+                    },
+                    "ID": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "categoryname",
+                    "idC",
+                    "idCQ",
+                    "idQ",
+                    "ID",
+                    "name"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "idC",
+              "catname",
+              "question"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
