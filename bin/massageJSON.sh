@@ -34,7 +34,18 @@ def walk(f):
 #
 # Working! See: http://stackoverflow.com/questions/43148797/jq-how-to-add-an-object-key-value-in-a-nested-json-tree-with-arrays/43149353#43149353
 jqadd () {
-    cat QUESTIONS.json | jq '.TechQuestions.category[].question[] += {"codefile" : "a string to be defined"}'
+    cat QUESTIONS.json | jq '.TechQuestions.category[].question[] += {"codefile" : "to configure"}'
+#
+}
+#
+jqaddcodes () {
+    echo ',{ "codetree" : ' > x.$$
+    tree -J python_solutions/ scala_solutions/ java_solutions/ | jq '.' >> x.$$
+    echo '}]' >> x.$$
+    echo '[' > x.pre.$$
+    #cat x.pre.$$ QUESTIONS.json x.$$
+    cat x.pre.$$ QUESTIONS.json x.$$ | jq  '.[0].TechQuestions.category[].question[] += {"codefile" : .[1].codetree}'
+    rm x.$$ x.pre.$$
 #
 }
 #
@@ -50,14 +61,14 @@ def walk(f):
   else f
   end;
 (. |= walk( if type == "object" and has("question")
-      then .question[] += {"codefile" : "a string to be defined"}
+      then .question[] += {"codefile" : "to configure"}
       else .
       end))'
 #
 }
 #
-jqadd > QUESTIONS.json.$$
-cp QUESTIONS.json QUESTIONS.json.backup
-cp QUESTIONS.json QUESTIONS.json.backup.$$
+jqaddcodes #> QUESTIONS.json.$$
+#cp QUESTIONS.json QUESTIONS.json.backup
+#cp QUESTIONS.json QUESTIONS.json.backup.$$
 #cp QUESTIONS.json.$$ QUESTIONS.json
-rm QUESTIONS.json.$$
+#rm QUESTIONS.json.$$
