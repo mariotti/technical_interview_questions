@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/mariotti/technical_interview_questions.png?label=ready&title=Ready)](https://waffle.io/mariotti/technical_interview_questions)
 # Technical Interview Questions: interesting problems
 
 This is a repository of interesting (and less interesting) questions with solutions
