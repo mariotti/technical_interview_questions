@@ -44,7 +44,8 @@ jqaddcodes () {
     echo '}]' >> x.$$
     echo '[' > x.pre.$$
     #cat x.pre.$$ QUESTIONS.json x.$$
-    cat x.pre.$$ QUESTIONS.json x.$$ | jq  '.[0].TechQuestions.category[].question[] += {"codefile" : .[1].codetree}'
+    cat x.pre.$$ QUESTIONS.json x.$$ | jq  '.[0].TechQuestions.category[].question[]
+                                            += {"CodeLanguages": .[1].codetree[].name , "codefile" : .[1].codetree}'
     rm x.$$ x.pre.$$
 #
 }
