@@ -1125,6 +1125,14 @@
             "idCQ": "C8Q43",
             "idQ": "Q43",
             "title": "Given two lists of chars, return the first with removed characters that appear in the second list."
+          },
+          {
+            "ID": "Q135",
+            "categoryname": "Uncategorized",
+            "idC": "C8",
+            "idCQ": "C8Q44",
+            "idQ": "Q44",
+            "title": "Given a dictionary of words, find out if a string is composed by only dictionary words (strictly)"
           }
         ]
       }
